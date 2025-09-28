@@ -145,6 +145,17 @@ footer {
 footer img {
     height: 40px;
     width: auto;
+    display: block;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 footer a {
