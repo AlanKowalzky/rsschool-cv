@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Kowalzky - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Alan Kowalzky profile photo" class="profile-photo">
+            <h1>Alan Kowalzky</h1>
+            <p class="title">Junior Developer</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate junior developer eager to start my career in web development. My goal is to become a skilled full-stack developer and contribute to innovative projects. I have strong problem-solving skills and a desire to continuously learn new technologies. Currently focusing on JavaScript and modern web development frameworks.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: <a href="mailto:alan.kowalzky@gmail.com">alan.kowalzky@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/AlanKowalzky">github.com/AlanKowalzky</a></li>
+                <li>Discord: alan.ko</li>
+                <li>Location: Warsaw, Poland</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> JavaScript, HTML5, CSS3, Python (basic)</li>
+                <li><strong>Frameworks &amp; Libraries:</strong> React (learning), Node.js (basic)</li>
+                <li><strong>Tools &amp; Technologies:</strong> Git, GitHub, VS Code, Chrome DevTools</li>
+                <li><strong>Methodologies:</strong> Agile, Scrum (theoretical knowledge)</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Other:</strong> Responsive Web Design, REST APIs (basic)</li>
+            </ul>
+        </section>
+
+        <section id="code-example">
+            <h2>Code Example</h2>
+            <p>Here's my solution to a Codewars problem - "Sum of positive":</p>
+            <pre><code>function positiveSum(arr) {
+  return arr
+    .filter(num =&gt; num &gt; 0)
+    .reduce((sum, num) =&gt; sum + num, 0);
+}
+
+// Alternative solution:
+function positiveSum(arr) {
+  let sum = 0;
+  for (let i = 0; i &lt; arr.length; i++) {
+    if (arr[i] &gt; 0) {
+      sum += arr[i];
+    }
+  }
+  return sum;
+}</code></pre>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>
+                    <strong>RS School CV</strong> - This CV project
+                    <ul>
+                        <li>Technologies: Markdown, Git, GitHub Pages</li>
+                        <li><a href="https://github.com/AlanKowalzky/rsschool-cv">Source Code</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Personal Portfolio Website</strong> (2024)
+                    <ul>
+                        <li>Created responsive personal website using HTML, CSS, JavaScript</li>
+                        <li>Implemented mobile-first design approach</li>
+                        <li>Technologies used: HTML5, CSS3, JavaScript, Git</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>RS School JavaScript/Front-end Course</strong> (2024 - Present)
+                    <ul>
+                        <li>Learning modern JavaScript, React, Node.js</li>
+                        <li>Practical projects and code reviews</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Computer Science Degree</strong> - Warsaw University of Technology (2020-2024)
+                    <ul>
+                        <li>Bachelor's degree in Computer Science</li>
+                        <li>Relevant coursework: Programming, Data Structures, Algorithms</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Online Courses:</strong>
+                    <ul>
+                        <li>JavaScript Fundamentals - Codecademy (2024)</li>
+                        <li>Git &amp; GitHub Crash Course - freeCodeCamp (2024)</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h2>English Level</h2>
+            <p><strong>B2 (Upper-Intermediate)</strong></p>
+            <ul>
+                <li>Can communicate effectively in professional environment</li>
+                <li>Regular practice through:
+                    <ul>
+                        <li>Technical documentation reading</li>
+                        <li>Online courses in English</li>
+                        <li>Participation in international developer communities</li>
+                        <li>RS School course conducted in English</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 <a href="https://github.com/AlanKowalzky">Alan Kowalzky</a></p>
+        <a href="https://rs.school/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNDAiIGZpbGw9IiNmZmRkMDAiLz48dGV4dCB4PSI1MCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UlMgU2Nob29sPC90ZXh0Pjwvc3ZnPic7">
+        </a>
+    </footer>
+</body>
+</html>
