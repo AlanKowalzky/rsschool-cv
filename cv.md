@@ -1,4 +1,4 @@
-# Alan Kowlzky
+# Alan Kowalzky
 
 ![Profile Photo](https://avatars.githubusercontent.com/u/12345678?v=4)
 
